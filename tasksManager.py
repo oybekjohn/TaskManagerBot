@@ -1,8 +1,9 @@
-# File: tasksManager.py
+#salom
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ConversationHandler, filters
 from profileRegister import start, ask_first_name, ask_last_name, ask_age, ask_phone, ask_timezone, create_profile, cancel, ASK_LANGUAGE, ASK_FIRST_NAME, ASK_LAST_NAME, ASK_AGE, ASK_PHONE, ASK_TIMEZONE
 from botDB import setup_database
 import logging
+
 token = '7405078046:AAGkucAWeLnbzomwAYYvSVn0wjXh_NFnZ1E'
 
 # Initialize logging
